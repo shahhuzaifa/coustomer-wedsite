@@ -1,0 +1,314 @@
+.items {
+    padding-right: 130px;
+}
+
+.logo {
+    padding-right: 60px;
+
+
+}
+
+.shah {
+    border-bottom: 0.4px solid rgb(148, 144, 144);
+    margin-top: 2px;
+}
+
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.owl-carousel {
+    width: 80%;
+    /* Adjust the width as needed */
+    margin: 0 auto;
+    /* Center the carousel within the container */
+}
+
+.owl-carousel .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.owl-carousel .owl-nav button {
+    background: transparent;
+    font-size: 24px;
+    color: #000;
+    /* Change the color as needed */
+    border: none;
+    outline: none;
+}
+
+/* Add some space from the left */
+.owl-carousel .item {
+    margin-left: 20px;
+    /* Adjust the margin as needed */
+}
+
+/* Adjust card width if needed */
+.owl-carousel .item .card {
+    width: 18rem;
+}
+
+#background2 {
+    position: relative;
+}
+
+#image {
+    width: 100%;
+}
+
+#slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+@media (max-width: 340px) {
+
+    /* Adjust styles for small screens */
+    #background2 {
+        text-align: center;
+    }
+
+    #image {
+        height: 100px;
+        max-width: 100%;
+    }
+
+    #slogan {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 500px) {
+
+    /* Adjust styles for small screens */
+    #background2 {
+        text-align: center;
+    }
+
+    #image {
+        height: 150px;
+        max-width: 100%;
+    }
+
+    #slogan {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1500px) {
+
+    /* Adjust styles for small screens */
+    #background2 {
+        text-align: center;
+    }
+
+    #image {
+        height: 250px;
+        max-width: 100%;
+    }
+
+    #slogan {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 2560px) {
+
+    /* Adjust styles for small screens */
+    #background2 {
+        text-align: center;
+    }
+
+    #image {
+        height: 250px;
+        max-width: 100%;
+    }
+
+    #slogan {
+        font-size: 50px;
+    }
+}
+
+#bottom {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+#lasttext {
+    color: rgb(38, 146, 38);
+
+}
+
+@media (max-width: 450px) {
+
+    #bottom {
+        font-size: 35px;
+        text-align: center;
+
+    }
+
+    #lasttext {
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 450px) and (max-width:2000px) {
+    #lasttext {
+        font-size: 25px;
+    }
+
+}
+
+footer {
+    background-color: #111;
+}
+
+.footercontainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialicons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialicons a {
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 100%;
+
+}
+
+.socialicons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialicons a :hover {
+    background-color: #413e3e;
+    transition: 0.5s;
+}
+
+.socialicons a :hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.footernav {
+    margin: 30px 0;
+}
+
+.footernav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footernav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.footernav ul li a:hover {
+    opacity: 1;
+}
+
+.footerbottom {
+    padding: 20px;
+    background-color: #111;
+    text-align: center;
+
+}
+
+.footerbottom p {
+    color: white;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media (max-width:700px) {
+    .footernav ul {
+        flex-direction: column;
+    }
+
+    .footernav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+
+}
+
+/* for          islamic calligirapy page cards  */
+
+
+@media (max-width: 476px) {
+    #islamic {
+        font-size: 30px;
+    }
+
+}
+
+
+@media (min-width:476px) and (max-width: 2500px) {
+    #islamic {
+        font-size: 45px;
+        margin-bottom: 70px;
+    }
+}
+
+
+.stairrailing {
+    margin: 0 auto;
+}
+
+.navbar2 {
+    margin-left: 15%;
+}
+
+@media (max-width:500) {
+
+    #about1 {
+        font-size: 20px;
+    }
+
+
+}
+
+@media (min-width:500px) and (max-width:2500px) {
+
+    #about1 {
+        font-size: 30px;
+    }
+
+
+}
